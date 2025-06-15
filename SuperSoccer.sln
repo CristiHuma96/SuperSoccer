@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoccer.PresentationLayer", "SuperSoccer.PresentationLayer\SuperSoccer.PresentationLayer.csproj", "{4B01688A-E872-4B4E-9C1D-0A66B0D935D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoccer.InfrastructureLayer", "SuperSoccer.InfrastructureLayer\SuperSoccer.InfrastructureLayer.csproj", "{4E4728B1-3003-44AF-B63C-A6834A6628C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoccer.DomainLayer", "SuperSoccer.DomainLayer\SuperSoccer.DomainLayer.csproj", "{90853270-FDC1-4873-8CBB-C2053C75AF80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoccer.InfrastructureLayer.Tests", "SuperSoccer.InfrastructureLayer.Tests\SuperSoccer.InfrastructureLayer.Tests.csproj", "{B99B56CB-D25B-483F-8E18-3C8516E27C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoccer.DomainLayer.Tests", "SuperSoccer.DomainLayer.Tests\SuperSoccer.DomainLayer.Tests.csproj", "{722E3F46-7150-413E-B0AE-2CCCEA05A480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoccer.PresentationLayer.Tests", "SuperSoccer.PresentationLayer.Tests\SuperSoccer.PresentationLayer.Tests.csproj", "{9517CE45-55E4-4136-A50D-84356AE284E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B01688A-E872-4B4E-9C1D-0A66B0D935D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B01688A-E872-4B4E-9C1D-0A66B0D935D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B01688A-E872-4B4E-9C1D-0A66B0D935D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B01688A-E872-4B4E-9C1D-0A66B0D935D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4728B1-3003-44AF-B63C-A6834A6628C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4728B1-3003-44AF-B63C-A6834A6628C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4728B1-3003-44AF-B63C-A6834A6628C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4728B1-3003-44AF-B63C-A6834A6628C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90853270-FDC1-4873-8CBB-C2053C75AF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90853270-FDC1-4873-8CBB-C2053C75AF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90853270-FDC1-4873-8CBB-C2053C75AF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90853270-FDC1-4873-8CBB-C2053C75AF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99B56CB-D25B-483F-8E18-3C8516E27C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99B56CB-D25B-483F-8E18-3C8516E27C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99B56CB-D25B-483F-8E18-3C8516E27C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99B56CB-D25B-483F-8E18-3C8516E27C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722E3F46-7150-413E-B0AE-2CCCEA05A480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722E3F46-7150-413E-B0AE-2CCCEA05A480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722E3F46-7150-413E-B0AE-2CCCEA05A480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722E3F46-7150-413E-B0AE-2CCCEA05A480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9517CE45-55E4-4136-A50D-84356AE284E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9517CE45-55E4-4136-A50D-84356AE284E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9517CE45-55E4-4136-A50D-84356AE284E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9517CE45-55E4-4136-A50D-84356AE284E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
