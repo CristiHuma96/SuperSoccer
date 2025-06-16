@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
+  <diagram name="Pagină-1" id="99QdNdJn8mHmVbU_iSK0">
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Ne1UIQR83TUA9Ltfwh-1" target="z_Ne1UIQR83TUA9Ltfwh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-1" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Ne1UIQR83TUA9Ltfwh-2" target="z_Ne1UIQR83TUA9Ltfwh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-2" value="Amazon route S3" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Ne1UIQR83TUA9Ltfwh-4" target="z_Ne1UIQR83TUA9Ltfwh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-4" value="Amazon cloud front&lt;br&gt;(CDN)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.567;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="z_Ne1UIQR83TUA9Ltfwh-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="490" as="targetPoint" />
+            <mxPoint x="420" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="422" y="450" />
+              <mxPoint x="600" y="450" />
+              <mxPoint x="600" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Ne1UIQR83TUA9Ltfwh-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="450" />
+              <mxPoint x="240" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-6" value="AWS Elastic Load Balancer (ALB)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="685" as="targetPoint" />
+            <mxPoint x="240" y="585" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="655" />
+              <mxPoint x="400" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-17" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;Ec2 instance 1&lt;/pre&gt;&lt;pre&gt;autoScalling&lt;/pre&gt;&lt;pre&gt;group 1 &lt;/pre&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="495" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="685" as="targetPoint" />
+            <mxPoint x="610" y="585" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="610" y="655" />
+              <mxPoint x="430" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-19" value="&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre&gt;Ec2 instance 1&lt;/pre&gt;&lt;pre&gt;autoScalling&lt;/pre&gt;&lt;pre&gt;group 1 &lt;/pre&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="490" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Ne1UIQR83TUA9Ltfwh-24" target="z_Ne1UIQR83TUA9Ltfwh-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-24" value="&lt;div&gt;&lt;pre&gt;Amazon ElastiCache&lt;/pre&gt;&lt;/div&gt;Distributed cache&lt;div&gt;Redis&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="339" y="690" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Ne1UIQR83TUA9Ltfwh-26" target="z_Ne1UIQR83TUA9Ltfwh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-26" value="External API calls" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Ne1UIQR83TUA9Ltfwh-30" value="Monitor and logging&lt;div&gt;Cloudwatch&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
